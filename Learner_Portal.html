@@ -1,0 +1,639 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Sisbusiswe Comp-Tech High School\Home_Page</title>
+    <link rel="icon" type="image/x-icon" href="Images/sibuLogo.png" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <div class="School-name">
+            <p>Sbusisiwe Comp-Tech High School</p>
+        </div>
+        <img class="logo" src="Images/sibuLogo.png" height="50" alt="scth logo">
+        <ul class="unlist">
+            <li><a href="Home_Page.html">Home</a></li>
+            <li><a href="Contact_Us.html">Contact Us</a></li>
+            <li><a href="Accademics_Page.html">Academics</a></li>
+            <li><a href="Sports.html">Sport</a></li>
+            <li><a href="Cultural.html">Cultural</a></li>
+            <li><a href="School Calender.html">School Calender</a></li>
+            <li><a href="Learner_Portal.html">Learner Portal</a></li>
+            <li><a href="About_Us.html">About Us</a></li>
+            <li><button class="apply"><a href="App.aspx">Apply Now</a></button></li>
+        </ul>
+    </nav>
+    <div class="para">
+        <h1>Welcome.<br /><br /></h1>
+        <p>
+            The Learner's Portal is here to serve as the page of learners where they find all the resorces they need for their education.<br />
+            The school has put the past papers for learners to download and practice for their tests and exams. We provide past papers <br />
+            for each and every grade for all subjects. We want to ensure that our learners are fully prepered for the tests and exams.<br /><br />
+
+            We also offer E-Learning, where our learners watch video lessons from their teachers.<br /><br />
+
+            We as a school also put the Learners License page for our Grade 10 -12 learners. We want our student to have some knoladge with driving lessons.<br />
+            even though we only offer the theory part but we are sure that this theory Learners will be helpfull to the learners.
+        </p>
+        <hr />
+    </div>
+    <div class="contain">
+        <div class="b1">
+            <button onclick="location.href='Past_Paper.html'" class="btn btn1">Past Papers</button>
+        </div>
+
+        <div class="b2">
+            <button onclick="location.href='E-Learning.html'" class="btn btn1">E-Learning</button>
+        </div>
+
+        <div class="b3">
+            <button onclick="location.href='K53.html'" class="btn btn1">Learning K53</button>
+        </div>
+
+        <div class="b4">
+            <button onclick="location.href='School Calender.html'" class="btn btn1">School Calender</button>
+        </div>
+    </div>
+    <!--////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        .apply {
+            background: #E8EE04;
+            border-radius: 10px;
+            cursor: pointer;
+            height: 35px;
+            width: 100px;
+            color: black;
+        }
+
+        .para {
+            text-align: center;
+            width: 100%;
+            margin: 80px auto auto 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+            .para h1 {
+                margin-bottom: -30px;
+            }
+
+            .para p {
+                color: black;
+                font-family: 'Poppins', sans-serif;
+            }
+
+        .paragraph p {
+            margin-left: 20px;
+        }
+
+        .logo {
+            margin: 15px auto auto -470px;
+        }
+
+        nav {
+            margin-top: -80px;
+            background-color: #00B050;
+            width: 100%;
+            height: 75px;
+            line-height: 75px;
+            padding: 0px 10px;
+            position: fixed;
+            z-index: 100;
+        }
+
+            nav .School-name {
+                float: left;
+                margin-left: 70px;
+            }
+
+                nav .School-name p {
+                    font-size: 20px;
+                    font-weight: bold;
+                    letter-spacing: 1.5px;
+                    color: white;
+                }
+
+            nav .unlist {
+                float: right;
+            }
+
+                nav .unlist li {
+                    list-style: none;
+                    display: inline-block;
+                }
+
+                    nav .unlist li a {
+                        text-decoration: none;
+                        color: white;
+                        font-size: 14px;
+                        padding: 0px 5px;
+                    }
+
+                        nav.unlist li a:hover {
+                            color: yellow;
+                        }
+
+        .checkbtn {
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+            float: right;
+            display: none;
+        }
+
+        #check {
+            display: none;
+        }
+
+        nav .unlist li a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        @media (max-width:1270px) {
+
+            nav {
+                padding: 0px 30px;
+                width: 100%;
+            }
+
+            .checkbtn {
+                display: block;
+                margin-top: 0px;
+            }
+
+            nav .School-name {
+                float: left;
+                margin-left: 50px;
+            }
+
+                nav .School-name p {
+                    font-size: 16px;
+                    font-weight: bold;
+                    letter-spacing: 1.5px;
+                    color: white;
+                }
+
+            .logo {
+                margin: 15px auto auto -400px;
+                height: 50px;
+                width: 50px;
+            }
+
+            nav .unlist {
+                width: 100%;
+                height: 300px;
+                background-color: #00B050;
+                position: fixed;
+                top: 75px;
+                left: -100%;
+                text-align: center;
+                transition: 0.4s ease;
+                z-index: 100;
+            }
+
+                nav .unlist li {
+                    display: block;
+                    margin: 10px 0px;
+                    line-height: 20px;
+                }
+
+            #check:checked ~ .unlist {
+                left: 0;
+            }
+
+            .back-Img {
+                margin: -20px auto 0px auto;
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .btn {
+            border: 1px solid white;
+            background: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            margin: 10px;
+            transition: 0.8s;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .btn3, .btn4, .btn1, .btn2 {
+            color: white;
+        }
+
+            .btn3:hover, .btn4:hover, .btn1:hover, .btn2:hover {
+                color: #00B050;
+                border: 1px solid yellow;
+            }
+
+        .btn::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 0%;
+            background: #00B050;
+            z-index: -1;
+            transition: 0.8s;
+        }
+
+        .btn1::before, .btn3::before, .btn2::before, .btn4::before {
+            top: 0;
+            border-radius: 0 0 50% 50%;
+        }
+
+        .btn1::before, .btn2::before, .btn3::before, .btn4::before {
+            height: 180%;
+        }
+
+        .btn1:hover::before, .btn2:hover::before, .btn3:hover::before, .btn4:hover::before {
+            height: 0%;
+        }
+
+        .contain {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /*.school {
+            font-size: 27px;
+            font: bold;
+        }*/
+
+        /*////////////////////////////////////////////////////////////////////////////////////////*/
+
+        .container {
+            max-width: 1170px;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .footer {
+            background-color: #24262b;
+            padding: 70px 0;
+        }
+
+        .footer-col {
+            width: 25%;
+            padding: 0 15px;
+        }
+
+            .footer-col h4 {
+                font-size: 18px;
+                color: #ffffff;
+                text-transform: capitalize;
+                margin-bottom: 35px;
+                font-weight: 500;
+                position: relative;
+            }
+
+                .footer-col h4::before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: -10px;
+                    background-color: green;
+                    height: 2px;
+                    box-sizing: border-box;
+                    width: 50px;
+                }
+
+            .footer-col ul li:not(:last-child) {
+                margin-bottom: 10px;
+            }
+
+            .footer-col ul li a {
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+                font-size: 12px;
+            }
+
+                .footer-col ul li a:hover {
+                    color: yellow;
+                    padding-left: 8px;
+                }
+
+            .footer-col .social-links a {
+                display: inline-block;
+                height: 40px;
+                width: 40px;
+                background-color: rgba(255,255,255,0.2);
+                margin: 0 10px 10px 0;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 50%;
+                color: #ffffff;
+                transition: all 0.5s ease;
+            }
+
+                .footer-col .social-links a:hover {
+                    color: #24262b;
+                    background-color: #ffffff;
+                }
+
+        /*responsive*/
+        @media(max-width: 767px) {
+            .footer-col {
+                width: 50%;
+                margin-bottom: 30px;
+            }
+        }
+
+        @media(max-width: 574px) {
+            .footer-col {
+                width: 100%;
+            }
+        }
+        /*////////////////////////////////////////////////////////////////////////////*/
+
+    </style>
+
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="Properties/past papers.jpg" style="width:100%">
+            <div class="text">Past Papers</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="Properties/k 53 new.jpg" style="width:100%">
+            <div class="text">K 53</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="Properties/e-learning.jpg" style="width:100%">
+            <div class="text">E-Learning</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>School</h4>
+                    <ul>
+                        <li><a href="About_Us.html">about us</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">code of conduct</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="https://localhost:44398/About_Us.html#:~:text=Frequantly%20Asked%20Queastions">FAQ</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Postal Address</h4>
+                    <ul>
+                        <li><a href="#">Private Bag X1010</a></li>
+                        <li><a href="#">Umbumbulu</a></li>
+                        <li><a href="#">4105</a></li>
+                        <li><a href="#">Kwazulu Natal</a></li>
+                        <br />
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/S.C.T.H.S.1930/"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" developers">
+            <p class="copyright"><b>Copyright 2023 © Sbusisiwe Comp.Tech High</b></p>
+            <p class="parag">Developed by Brothers Investement <br />established 2023</p>
+            <p></p>
+        </div>
+    </footer>
+
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0
+        }
+
+        .mySlides {
+            display: none
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Next & previous buttons */
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover, .next:hover {
+                background-color: rgba(0,0,0,0.8);
+            }
+
+        /* Caption text */
+        .text {
+            color: green;
+            font-size: 30px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+            .active, .dot:hover {
+                background-color: #717171;
+            }
+
+        /* Fading animation */
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .prev, .next, .text {
+                font-size: 11px
+            }
+        }
+        /*///////////////////////////////////////////////////////////////////////////////////////////*/
+        .developers {
+            background: green;
+            width: 100%;
+            height: 60px;
+            margin-bottom: -100px;
+            align-items: center;
+        }
+
+        .parag {
+            text-align: right;
+            margin-top: -20px;
+            padding-right: 10px;
+        }
+
+        .copyright {
+            padding-left: 10px;
+        }
+
+        @media(max-width:1250px) {
+            .parag {
+                text-align: right;
+                margin-top: -5px;
+                font-size: 14px;
+            }
+        }
+    </style>
+
+
+</body>
+</html>
