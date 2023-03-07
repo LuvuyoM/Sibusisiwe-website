@@ -1,0 +1,709 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Sisbusiswe Comp-Tech High School\Home_Page</title>
+    <link rel="icon" type="image/x-icon" href="Images/sibuLogo.png" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <div class="School-name">
+            <p>Sbusisiwe Comp-Tech High School</p>
+        </div>
+        <img class="logo" src="Images/sibuLogo.png" height="50" alt="scth logo">
+        <ul class="unlist">
+            <li><a href="Home_Page.html">Home</a></li>
+            <li><a href="Contact_Us.html">Contact Us</a></li>
+            <li><a href="Accademics_Page.html">Academics</a></li>
+            <li><a href="Sports.html">Sport</a></li>
+            <li><a href="Cultural.html">Cultural</a></li>
+            <li><a href="School Calender.html">School Calender</a></li>
+            <li><a href="Learner_Portal.html">Learner Portal</a></li>
+            <li><a href="About_Us.html">About Us</a></li>
+            <li><button class="apply"><a href="App.aspx">Apply Now</a></button></li>
+        </ul>
+    </nav>
+    <h1 class="contact">Contact Details</h1>
+
+    <div class="contact-details">
+        <div class="contactD">
+            <p><i class='fas fa-map-marker-alt' style='font-size:36px; color:green'></i></p>
+            <p><br />Madundube, Cele <br />Kwazulu Natal</p>
+        </div>
+
+        <div class="Telephone">
+            <i class='fa fa-phone' style='font-size:36px; color:green'></i>
+            <p><br />(031) 915 0202</p>
+            <p>08:00 - 15:00 <br />(Monday - Friday)</p>
+
+        </div>
+        <div class="Postal">
+            <i class='fa fa-address-book' style='font-size:36px; color:green'></i>
+            <p>
+                <br />
+                Private Bag X1010<br />
+                Umbumbulu<br />
+                Zip / Postal Code<br />
+                4105 <br />Kwazulu Natal
+            </p>
+        </div>
+
+    </div>
+    <div class="map">
+        <iframe class="map-class" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10137.015965392286!2d30.698667311276616!3d-29.98230996726084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef657588118aee9%3A0xcaa46fefc3c99606!2sSibusisiwe%20Comp%20Tech%20High%20School!5e0!3m2!1sen!2sza!4v1677144062207!5m2!1sen!2sza" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="emaiil">
+        <i class="fa fa-envelope" style="font-size:20px; color:green"><span class="email">  info@sibusisiwecomptech.co.za</span></i>
+    </div>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+        body {
+            background: white;
+            padding: 0px;
+            line-height: 1.5;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .apply {
+            background: #E8EE04;
+            border-radius: 10px;
+            cursor: pointer;
+            height: 35px;
+            width: 100px;
+            color: black;
+        }
+
+        .para {
+            text-align: center;
+            width: 100%;
+            margin: 20px auto auto 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+            .para h1 {
+                margin-bottom: -30px;
+            }
+
+            .para p {
+                color: black;
+                font-family: 'Poppins', sans-serif;
+            }
+
+        .logo {
+            margin: 15px auto auto -470px;
+        }
+
+        nav {
+            background-color: #00B050;
+            width: 100%;
+            height: 75px;
+            line-height: 75px;
+            padding: 0px 10px;
+            position: fixed;
+            z-index: 100;
+        }
+
+            nav .School-name {
+                float: left;
+                margin-left: 70px;
+            }
+
+                nav .School-name p {
+                    font-size: 20px;
+                    font-weight: bold;
+                    letter-spacing: 1.5px;
+                    color: white;
+                }
+
+            nav .unlist {
+                float: right;
+            }
+
+                nav .unlist li {
+                    list-style: none;
+                    display: inline-block;
+                }
+
+                    nav .unlist li a {
+                        text-decoration: none;
+                        color: white;
+                        font-size: 14px;
+                        padding: 0px 5px;
+                    }
+
+                        nav.unlist li a:hover {
+                            color: yellow;
+                        }
+
+        .checkbtn {
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+            float: right;
+            display: none;
+        }
+
+        #check {
+            display: none;
+        }
+
+        nav .unlist li a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        @media (max-width:1300px) {
+
+            nav {
+                padding: 0px 30px;
+                width: 100%;
+            }
+
+            .checkbtn {
+                display: block;
+                margin-top: 0px;
+            }
+
+            nav .School-name {
+                float: left;
+                margin-left: 50px;
+            }
+
+                nav .School-name p {
+                    font-size: 16px;
+                    font-weight: bold;
+                    letter-spacing: 1.5px;
+                    color: white;
+                }
+
+            .logo {
+                margin: 15px auto auto -400px;
+                height: 50px;
+                width: 50px;
+            }
+
+            nav .unlist {
+                width: 100%;
+                height: 300px;
+                background-color: #00B050;
+                position: fixed;
+                top: 75px;
+                left: -100%;
+                text-align: center;
+                transition: 0.4s ease;
+                z-index: 100;
+            }
+
+                nav .unlist li {
+                    display: block;
+                    margin: 10px 0px;
+                    line-height: 20px;
+                }
+
+            #check:checked ~ .unlist {
+                left: 0;
+            }
+
+
+            .back-Img {
+                margin: -20px auto 0px auto;
+            }
+        }
+
+        .container {
+            max-width: 1170px;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .footer {
+            background-color: #24262b;
+            padding: 70px 0;
+        }
+
+        .footer-col {
+            width: 25%;
+            padding: 0 15px;
+        }
+
+            .footer-col h4 {
+                font-size: 18px;
+                color: #ffffff;
+                text-transform: capitalize;
+                margin-bottom: 35px;
+                font-weight: 500;
+                position: relative;
+            }
+
+                .footer-col h4::before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: -10px;
+                    background-color: green;
+                    height: 2px;
+                    box-sizing: border-box;
+                    width: 50px;
+                }
+
+            .footer-col ul li:not(:last-child) {
+                margin-bottom: 10px;
+            }
+
+            .footer-col ul li a {
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+                font-size: 12px;
+            }
+
+                .footer-col ul li a:hover {
+                    color: yellow;
+                    padding-left: 8px;
+                }
+
+            .footer-col .social-links a {
+                display: inline-block;
+                height: 40px;
+                width: 40px;
+                background-color: rgba(255,255,255,0.2);
+                margin: 0 10px 10px 0;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 50%;
+                color: #ffffff;
+                transition: all 0.5s ease;
+            }
+
+                .footer-col .social-links a:hover {
+                    color: #24262b;
+                    background-color: #ffffff;
+                }
+
+        /*responsive*/
+        @media(max-width: 767px) {
+            .footer-col {
+                width: 50%;
+                margin-bottom: 30px;
+            }
+        }
+
+        @media(max-width: 574px) {
+            .footer-col {
+                width: 100%;
+            }
+        }
+        /*////////////////////////////////////////////////////////////////////////////*/
+        .developers {
+            background: green;
+            width: 100%;
+            height: 60px;
+            margin-bottom: -100px;
+            align-items: center;
+        }
+
+        .parag {
+            text-align: right;
+            margin-top: -20px;
+            padding-right: 10px;
+        }
+
+        .copyright {
+            padding-left: 10px;
+        }
+        /*///////////////////////////////////////////////////////////////////////*/
+        .emaiil {
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        .contact-details {
+            margin-top: 100px;
+            margin-bottom: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            margin-right: 50px;
+            justify-content: right;
+            font-size: 10pt;
+        }
+
+        .contactD {
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+            padding: 10px;
+        }
+
+        .Telephone {
+            margin-left: 50px;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+            padding: 10px;
+        }
+
+        .Postal {
+            margin-left: 50px;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+            padding: 10px;
+        }
+
+        .map {
+            margin-top: -250px;
+            margin-left: 30px;
+        }
+
+        .map-class {
+            width: 500px;
+        }
+
+        @media (max-width:1100px) {
+            .contact-details {
+                justify-content: left;
+                margin-left: 20px;
+                flex-wrap: nowrap;
+            }
+
+            .map {
+                margin-top: 30px;
+            }
+
+            .map-class {
+                width: 400px;
+            }
+
+            .contactD {
+                padding: 10px;
+            }
+
+            .Telephone {
+                margin-left: 10px;
+            }
+
+            .Postal {
+                margin-left: 10px;
+            }
+        }
+
+
+        @media(max-width:1250px) {
+            .parag {
+                text-align: right;
+                margin-top: -5px;
+                font-size: 14px;
+            }
+        }
+    </style>
+    <style type="text/css">
+        #fcf-form {
+            display: block;
+        }
+
+        .fcf-body {
+            margin-left: 10px;
+            font-family: -apple-system, Arial, sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+            background-color: #fff;
+            padding: 30px;
+            padding-bottom: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            width: 30%;
+            margin-bottom: 50px;
+        }
+
+        .fcf-form-group {
+            margin-bottom: 1rem;
+        }
+
+        .fcf-input-group {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            width: 100%;
+        }
+
+        .fcf-form-control {
+            display: block;
+            width: 100%;
+            height: calc(1.5em + 0.75rem + 2px);
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            outline: none;
+            border-radius: 0.25rem;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+            .fcf-form-control:focus {
+                border: 1px solid #313131;
+            }
+
+        select.fcf-form-control[size], select.fcf-form-control[multiple] {
+            height: auto;
+        }
+
+        textarea.fcf-form-control {
+            font-family: -apple-system, Arial, sans-serif;
+            height: auto;
+        }
+
+        label.fcf-label {
+            display: inline-block;
+            margin-bottom: 0.5rem;
+        }
+
+        .fcf-credit {
+            padding-top: 10px;
+            font-size: 0.9rem;
+            color: #545b62;
+        }
+
+            .fcf-credit a {
+                color: #545b62;
+                text-decoration: underline;
+            }
+
+                .fcf-credit a:hover {
+                    color: #0056b3;
+                    text-decoration: underline;
+                }
+
+        input[type="submit"] {
+            width: 30%;
+            height: 40px;
+            border: 1px solid;
+            background: orange;
+            border-radius: 5px;
+            font-size: 18px;
+            color: #e9f4fb;
+            font-weight: 700;
+            cursor: pointer;
+            outline: none;
+            margin-left: 70%;
+        }
+
+            input[type="submit"]:hover {
+                border-color: #2691d9;
+                transition: .5s;
+            }
+
+        @media (prefers-reduced-motion: reduce) {
+            .fcf-btn {
+                transition: none;
+            }
+        }
+
+        .fcf-btn:hover {
+            color: #212529;
+            text-decoration: none;
+        }
+
+        .fcf-btn:focus, .fcf-btn.focus {
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+        .fcf-btn-primary {
+            color: #fff;
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+            .fcf-btn-primary:hover {
+                color: #fff;
+                background-color: #0069d9;
+                border-color: #0062cc;
+            }
+
+            .fcf-btn-primary:focus, .fcf-btn-primary.focus {
+                color: #fff;
+                background-color: #0069d9;
+                border-color: #0062cc;
+                box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+            }
+
+        .fcf-btn-lg, .fcf-btn-group-lg > .fcf-btn {
+            padding: 0.5rem 1rem;
+            font-size: 1.25rem;
+            line-height: 1.5;
+            border-radius: 0.3rem;
+        }
+
+        .fcf-btn-block {
+            display: block;
+            width: 100%;
+        }
+
+            .fcf-btn-block + .fcf-btn-block {
+                margin-top: 0.5rem;
+            }
+
+        input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+            width: 100%;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .fcf-btn {
+                transition: none;
+            }
+        }
+
+        @media (max-width:1100px) {
+            .fcf-body {
+                width: 90%;
+            }
+        }
+    </style>
+    <div class="fcf-body">
+
+        <div id="fcf-form">
+            <h3 class="fcf-h3">Contact us</h3>
+
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Your name</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                </div>
+
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Your email address</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                </div>
+
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">Your message</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+                <div class="btnRegister">
+                    <input type="Submit" disabled>
+                    <asp:Button ID="btnReg"  runat="server" Text="Register" Width="286px" />
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>School</h4>
+                    <ul>
+                        <li><a href="About_Us.html">about us</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">code of conduct</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="https://localhost:44398/About_Us.html#:~:text=Frequantly%20Asked%20Queastions">FAQ</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Postal Address</h4>
+                    <ul>
+                        <li><a href="#">Private Bag X1010</a></li>
+                        <li><a href="#">Umbumbulu</a></li>
+                        <li><a href="#">4105</a></li>
+                        <li><a href="#">Kwazulu Natal</a></li>
+                        <br />
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/S.C.T.H.S.1930/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="facebook" href="https://www.youtube.com/@sibusisiwecomptech409"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" developers">
+            <p class="copyright"><b>Copyright 2023 © Sbusisiwe Comp.Tech High</b></p>
+            <p class="parag">Developed by Brothers Investement <br />established 2023</p>
+        </div>
+    </footer>
+
+    </script>
+
+    <!--<script>
+        var btn = document.getElementById('fcf-button');
+        btn.addEventListener('click', function (e) {
+            e.preventDefault()
+
+            var name = document.getElementById('Name').value
+            var email = document.getElementById('Email').value;
+            var name = document.getElementById('Mesage').value;
+
+            var body = 'Name: ' + name + <br /> + 'Email: ' + email + <br /> + 'Message: ' + message;
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "kbmaseco@gmail.com",
+                Password: "dsvlfgthvcffwqvl",
+                To: 'kbmaseco@gmail.com',
+                From: email,
+                Subject: message,
+                Body: body
+            }).then(
+                message => alert(message)
+            );
+        })
+    </script>-->
+
+
+</body>
+
+
+
+</html>
